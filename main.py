@@ -20,6 +20,6 @@ def analyse_text(query_string: QueryString):
     sentiment, entities = get_entities_and_sentiment(query_string.query)
     return {
         "query": query_string.query,
-        "entites": entities,
+        "entities": entities,
         "sentiment": sentiment,
         }
