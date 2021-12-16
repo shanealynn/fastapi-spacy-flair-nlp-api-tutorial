@@ -27,9 +27,11 @@ The first run may take longer than usual if Flair has to download any models to 
 
 There are some basic examples (from the blog) in the `examples/` directory showing:
 
-* sentiment detection with Flair alone `flair_sentiment_sample.py`
-* named entity recognition (NER) with Spacy `spacy_ner_example.py`
-* basic GET requests with FastAPI `simple_api.py`
+* Basic GET requests with FastAPI `simple_api.py`
+* Basic POST API with FastAPI `simple_post_route.py`
+* Sentiment detection with Flair alone `flair_sentiment_sample.py`
+* Named entity recognition (NER) with Spacy `spacy_ner_example.py`
+
 
 Run these with simple `python examples/<example_filename.py>`.
 
